@@ -32,7 +32,7 @@ void loop()
   int sensorValue = analogRead(A4);
 
   // Print LDR value to serial monitor
-  Serial.println(sensorValue);
+  //Serial.println(sensorValue);
 
   //determine number of LEDs on
   int numberLedOn = map(sensorValue, 50, 260, 0, 6);
