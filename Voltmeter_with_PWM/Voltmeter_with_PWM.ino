@@ -15,7 +15,7 @@ void setup()
 void loop() 
 {
   // put your main code here, to run repeatedly:
-  // Read LDR value
+  // Read potentiometer value
   int sensorValue = analogRead(potentiometerPin);
 
   //convert pin value to scale of 0 to 254 to suit PWM
